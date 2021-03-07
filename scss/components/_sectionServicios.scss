@@ -1,0 +1,21 @@
+@import '../base/variables';
+
+/* Inicio sección servicios */
+
+.centrar {
+    display: flex; 
+    align-items:center; 
+    justify-content: center;
+    padding: 20px;
+}
+
+.imgMarca {
+
+    padding: 20px;
+    overflow:hidden;
+    transition-duration: 1.5s;
+}
+
+.imgMarca:hover {    
+    transform:scale(1.3);
+}

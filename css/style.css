@@ -1,0 +1,97 @@
+@charset "UTF-8";
+h2, h3 {
+  color: black;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h4 {
+  color: black;
+  padding: 1px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 11px;
+}
+
+* {
+  /* Eliminar por default los valores predeterminados de html */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  margin: 10px, 10px;
+}
+
+/* Inicio header */
+header h1 {
+  background-color: #7030A0;
+  padding: 10px;
+  font-size: 16px;
+  font-family: "Jost", sans-serif;
+  color: white;
+}
+header .iconos {
+  background-color: #7030A0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+header .imgIcon {
+  /*Puse esto aquí para separar los iconos*/
+  margin-left: 20px;
+  justify-content: flex-end;
+}
+
+section {
+  padding: 10px;
+}
+
+/* Fin header */
+/* Inicio sección servicios */
+.centrar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.imgMarca {
+  padding: 20px;
+  overflow: hidden;
+  transition-duration: 1.5s;
+}
+
+.imgMarca:hover {
+  transform: scale(1.3);
+}
+
+/* Inicio footer */
+footer section {
+  padding: 10px;
+}
+
+/* Fin footer */
+/* Inicio media querys */
+/* Mobile*/
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #7030A0;
+  }
+
+  .ocultar {
+    display: none !important;
+  }
+}
+/* Tablet */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: #7030A0;
+  }
+}
+/* Desktop */
+/* Fin media querys */
+
+/*# sourceMappingURL=style.css.map */

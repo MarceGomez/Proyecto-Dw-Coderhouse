@@ -1,0 +1,14 @@
+@import '../base/variables';
+
+h2, h3 {
+    color:$color-tres; 
+    padding: 10px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h4 {
+    color: $color-tres; 
+    padding: 1px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+}

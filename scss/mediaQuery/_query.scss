@@ -1,0 +1,30 @@
+
+@import '../base/variables';
+
+/* Inicio media querys */
+
+/* Mobile*/
+@media only screen and (max-width:400px) {
+     body {
+         background-color: $color-uno;
+     }
+     .ocultar {
+         display: none !important;
+     }
+
+}
+
+/* Tablet */
+@media only screen and (min-width: 401px) and (max-width:960px) {
+    body {
+        background-color: $color-uno;
+    }
+    
+}
+
+/* Desktop */
+
+@media only screen and (min-width: 961px) {
+  
+    }
+/* Fin media querys */

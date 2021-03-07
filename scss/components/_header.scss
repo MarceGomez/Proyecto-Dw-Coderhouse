@@ -1,0 +1,36 @@
+*{ /* Eliminar por default los valores predeterminados de html */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $color-dos;
+    margin: 10px, 10px;
+}
+/* Inicio header */
+header {
+    h1 {
+        background-color:$color-uno;
+        padding: 10px;
+        font-size: 16px;
+        font-family: 'Jost', sans-serif;
+        color: $color-dos;
+    }
+
+    .iconos {
+        background-color:$color-uno;
+        display: flex;
+        flex-wrap: wrap;
+        align-items:center; 
+        padding: 10px; 
+        margin: 10px;
+    }
+    .imgIcon { /*Puse esto aquí para separar los iconos*/
+        margin-left: 20px;
+        justify-content:flex-end;
+    }
+}
+section { 
+    padding: 10px;
+}
+/* Fin header */
