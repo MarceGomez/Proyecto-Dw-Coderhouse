@@ -19,9 +19,8 @@ h4 {
 }
 
 body {
-  background-image: url(Images/Fondo.jpg);
-  /*background-image: url("Images/Fondo.jpg")*/
-  /*margin: 10px, 10px;*/
+  background-image: url("Images/Fondo.jpg");
+  margin: 10px, 10px;
 }
 
 /* Inicio header */
@@ -72,6 +71,7 @@ section {
 /* Inicio footer */
 footer section {
   padding: 10px;
+  background-color: #7030A0;
 }
 
 /* Fin footer */
