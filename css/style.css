@@ -19,8 +19,9 @@ h4 {
 }
 
 body {
-  background-color: white;
-  margin: 10px, 10px;
+  background-image: url(Images/Fondo.jpg);
+  /*background-image: url("Images/Fondo.jpg")*/
+  /*margin: 10px, 10px;*/
 }
 
 /* Inicio header */
