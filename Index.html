@@ -55,7 +55,7 @@
               <a class="nav-link" href="#Equipo">Equipo</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Equipo">Equipo</a>
+              <a class="nav-link" href="#Equipo">Concacto</a>
             </li>
           </ul>
         </div>
@@ -72,7 +72,7 @@
         
     </section>
    </header>
-    <!-- Gonza aquí puse un carrusel con Boostrap JS, para hacer el coverflow de las fotos de las motos-->
+    <!-- Aquí puse un carrusel con Boostrap JS, para hacer el coverflow de algunas imagenes-->
     <Section > 
       
       <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
@@ -103,13 +103,13 @@
       <h2>Servicios</h2>
       <Div class="centrar">
 
-        <Div class="imgMarca"><img src="Images/Servicio1.png" width="120" height="120" alt="Servicio de manteniemiendo de redes sociales"></Div>
-        <Div class="imgMarca"><img src="Images/Servicio2.png" width="120" height="120" alt="Pantalla con codigo de desarrollo web"></Div>
-        <Div class="imgMarca"><img src="Images/Servicio3.png" width="120" height="120" alt="Influencers sentadas tomando una selfie"></Div>
+        <Div class="imgMarca"><img src="Images/Servicio1.png"  alt="Servicio de manteniemiendo de redes sociales"></Div>
+        <Div class="imgMarca"><img src="Images/Servicio2.png"  alt="Pantalla con codigo de desarrollo web"></Div>
+        <Div class="imgMarca"><img src="Images/Servicio3.png"  alt="Influencers sentadas tomando una selfie"></Div>
      </Div>
     </Section>
 
-    <section id="Clientes"> <!-- Pronto agreraré información real al proyecto-->
+    <section id="Clientes"> 
       <h2>Nuestros Clientes</h2>
 
       <Div class="centrar">
@@ -125,11 +125,11 @@
     </Section>
     </section>
 
-    <section id="Equipo">
+    <section class="equipo-container" id="Equipo">
       <h2>Nuestro Equipo</h2>
-      <div><img src="Images/Pepe.jpeg" width="270" height="300" alt="Foto de Steve Heybert Co-Funder de Creativity Marker"></div>
+      <div class="object"><img src="Images/Pepe.jpeg" width="270" height="300" alt="Foto de Steve Heybert Co-Funder de Creativity Marker"></div>
       <h4><Strong>Steve Heybert</Strong></h4> 
-      <p>Co Funder - Creativity Maker, Colombiano nacido en Bogotá D. C., Actualmente recide en Qatar, su idea de crear una agencia de publicidad está basada en la
+      <p class="equipo">Co Funder - Creativity Maker, Colombiano nacido en Bogotá D. C., Actualmente recide en Qatar, su idea de crear una agencia de publicidad está basada en la
         la oportunidad que se le puede brindar a nuevos proyectos de emprendimiento a desarrollar su marca y tener una presencia en internet.  Es actualmente estudiante
         de comercio internacional, pero cuenta con más de seis años en el mundo del marketing digital.
       </p>
@@ -153,15 +153,16 @@
       <h4>Teléfono: +57 (1) 123 4567</h4>
       <h4>Bogotá, Creativity Maker</h4>
     
-      <iframe
-      class="object" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.6685423781646!2d-74
+      <div class="object">
+       <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.6685423781646!2d-74
         .16208978598107!3d4.653070496619996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9
         c48aff6ce73%3A0x5760e2bc94949d0f!2sCiudad%20Tintal%202%20Etapa%2011!5e0!3m2!1ses!2sco!4v16114
         18482477!5m2!1ses!2sco" width="1000" height="400" frameborder="0" style="border:0;" 
         allowfullscreen="" aria-hidden="false" tabindex="0"> <!-- Mapa extraido de google con la ubicación/ dirección -->
-    </iframe>
+       </iframe>
+    </div>
 
-    <!-- Aquí tengo pensado construir un formato de contacto, estoy usando Bootstrap -->
+    <!-- Aquí estoy usando Bootstrap -->
 
       <div class="container">
         <div class="row">
@@ -169,7 +170,7 @@
                 <div class="well well-sm">
                     <form class="form-horizontal" method="post">
                         <fieldset>
-                            <legend class="text-center header">Contactanos</legend>
+                            <legend class="text-center header">Contáctanos</legend>
     
                             <div class="form-group">
                                 <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
@@ -207,7 +208,7 @@
     
                             <div class="form-group">
                                 <div class="col-md-12 text-center">
-                                    <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                                    <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
                                 </div>
                             </div>
                         </fieldset>
